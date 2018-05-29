@@ -35,9 +35,9 @@ Finally add this to the Gemfile:
 
 ### Install from Git
 
-If the Ruby gem is hosted at a git repository: https://github.com/GIT_USER_ID/GIT_REPO_ID, then add the following in the Gemfile:
+If the Ruby gem is hosted at a git repository: https://github.com/MelianLabs/opsgenie_v2, then add the following in the Gemfile:
 
-    gem 'opsgenie_client', :git => 'https://github.com/GIT_USER_ID/GIT_REPO_ID.git'
+    gem 'opsgenie_client', :github => 'MelianLabs/opsgenie_v2'
 
 ### Include the Ruby code directly
 
