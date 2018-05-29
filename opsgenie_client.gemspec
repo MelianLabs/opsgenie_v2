@@ -24,12 +24,12 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/swagger-api/swagger-codegen"
   s.summary     = "OpsGenie REST API Ruby Gem"
   s.description = "OpsGenie OpenAPI Specification"
-  # TODO uncommnet and update below with a proper license 
+  # TODO uncommnet and update below with a proper license
   #s.license     = "Apache 2.0"
   s.required_ruby_version = ">= 1.9"
 
   s.add_runtime_dependency 'typhoeus', '~> 1.0', '>= 1.0.1'
-  s.add_runtime_dependency 'json', '~> 2.1', '>= 2.1.0'
+  s.add_runtime_dependency 'json', '~> 1.8', '>= 1.8.6'
 
   s.add_development_dependency 'rspec', '~> 3.6', '>= 3.6.0'
   s.add_development_dependency 'vcr', '~> 3.0', '>= 3.0.1'
